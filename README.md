@@ -30,7 +30,7 @@ app.get('/', (req:Request, res:Response): void => {
   res.send("Hello Typescript with Node.js!")
 })
 
-app.listen(PORT, () => console.log(`Server running here 👉 http://localhost:${PORT}`)
+app.listen(PORT, () => console.log(`⚡️[server]: Server running here 👉 http://localhost:${PORT}`)
 )
 ```
 
